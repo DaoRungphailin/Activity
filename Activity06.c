@@ -6,10 +6,10 @@ int main()
     swap(&a,&b);
     printf("%d %d",a,b);
 }
-void swap(int *x,int *y)
+void swap(int *a,int *b)
 {
-    int z;
-    z=*y;
-    *y=*x;
-    *x=z;
+    int c;
+    c=*b;
+    *b=*a;
+    *a=c;
 }

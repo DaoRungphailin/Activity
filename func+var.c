@@ -1,4 +1,3 @@
-#define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
 int gx = 100, gy = 200;
 void func1(int x, int y) 
